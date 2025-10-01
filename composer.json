@@ -71,7 +71,7 @@
             "pint --parallel --test",
             "rector --dry-run"
         ],
-        "test:unit": "pest --parallel",
+        "test:unit": "pest --parallel --coverage",
         "test:types": "phpstan",
         "test": [
             "@test:type-coverage",
