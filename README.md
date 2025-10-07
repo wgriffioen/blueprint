@@ -17,6 +17,10 @@ Create a new project using Composer:
 
     composer create-project wgriffioen/blueprint --prefer-dist example-app
 
+Create a new project with the Laravel installer
+
+    laravel new --using=wgriffioen/blueprint example-app
+
 ## License
 
 The Laravel framework and this starter kit are open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
